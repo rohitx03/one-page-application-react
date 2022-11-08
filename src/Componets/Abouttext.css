@@ -1,0 +1,46 @@
+.whowe .whowe-content .heading {
+    color: #0e132a;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+}
+
+.whowe .whowe-content .who-para-cont .top-para {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Barlow", sans-serif;
+    color: #0b0b2b;
+}
+.whowe .whowe-content .who-para-cont p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Barlow", sans-serif;
+}
+.whowe .whowe-content .who-para-cont a.btn {
+    padding: 13px 30px;
+    font-size: 15px;
+    background: black;
+    border-radius: 0;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    transition: all 0.4s ease-in-out;
+
+}
+.whowe .whowe-content .who-para-cont a.btn:hover {
+    background-color: rgb(0, 217, 255);
+
+}
+.img-upper-div {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 30px;
+    background: #000000;
+}
+
+@media (max-width:768px){
+    .whowe-img{
+        margin-top: 20px;
+    }
+}

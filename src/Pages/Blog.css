@@ -1,0 +1,83 @@
+.blog-banner {
+    background-image: url(https://wallpaperaccess.com/full/4685960.jpg);
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+    background-repeat: no-repeat;
+    box-shadow: inset 50px 50px 1000px 100px rgb(0 242 255 / 29%);
+    background-attachment: fixed;
+}
+.blog-banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'barlow',sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+.pages .blog-box .blog-content-box h5 a {
+    color: #0e132a;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Barlow", sans-serif;
+    transition: 0.3s;
+}
+.pages .blog-box .blog-content-box h5 a:hover {
+    color: rgb(0, 217, 255);
+}
+.pages .blog-box .blog-content-box  {
+    padding: 20px;
+    background: #8080800f;
+    height: 280px !important;
+
+}
+.pages .blog-box .blog-img-box img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out 0s;
+}
+.pages .blog-box .blog-img-box img{
+    height: 250px;
+    width: 100%;
+}
+.pages .blog-box .blog-content-box p{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Barlow", sans-serif;
+}
+
+.pages .blog-box .blog-content-box .more-btn {
+    color: #161e46;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    font-family: "Barlow", sans-serif;
+    transition: all 0.4s ease;
+}
+.pages .blog-box .blog-content-box .more-btn:hover {
+    color: rgb(0, 217, 255);
+    margin-left: 4px;
+}
+.blog-box {
+    margin-bottom: 25px;
+}  
+
+
+
+/* ============Start Media Query============= */
+
+
+@media (max-width:992px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:575px){
+    .pages .blog-box .blog-content-box {
+        height: 220px !important;
+      }
+}

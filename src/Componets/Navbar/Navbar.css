@@ -1,0 +1,113 @@
+/* Header Css */
+section#header {
+    background: #000000;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    padding: 6px;
+}
+a.navbar-brand{
+    font-size: 30px;
+    font-family: 'Barlow';
+    font-weight: 700;
+}
+li#headerline {
+    width: 99%;
+    text-align: center;
+    border-bottom: 1px solid #5e5e5e;
+    top: 52px;
+    list-style: none;
+    position: absolute;
+}
+section#header .top-contact .top-inner a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Barlow;
+    margin-right: 32px;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+section#header .top-contact .top-inner a:hover{
+    color: rgb(0, 217, 255);
+
+}
+section#header .top-soical a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+    top: 0;
+    position: relative;
+}
+section#header .top-soical a:hover{
+    color: rgb(0, 217, 255);
+    top:-3px;
+
+}
+
+div#navbarSupportedContent ul li a {
+    color: white;
+    font-family: "Barlow",sans-serif;
+    margin: 0px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+div#navbarSupportedContent ul li a:hover {
+    color: rgb(0, 217, 255);
+}
+section#header .header-contact a {
+    background: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+section#header .header-contact a:hover{
+    background: rgb(0, 217, 255);
+}
+ul.dropdown-menu.show {
+    padding: 0;
+    background: #000000c4;
+}
+ul.dropdown-menu.show li a {
+    margin: 0px !important;
+    padding: 5px 17px;
+}
+ul.dropdown-menu.show li a:hover{
+    background-color: #ffa50000  ;
+    cursor: pointer;
+}
+
+@media (max-width:992px){
+    .navbar-toggler.collapsed {
+        color: white !important ;
+        background: white !important;
+        border-radius: 0 !important ;
+        padding: 1px 5px !important;
+      }
+      .navbar-toggler:focus {
+        color: white !important;
+        background: #0fcbdf !important;
+        border-radius: 0 !important;
+        padding: 1px 5px !important;
+      }
+}
+@media (max-width:768px){}
+@media (max-width:575px){
+    .top-contact {
+        justify-content: center;
+      }
+      .top-soical {
+        justify-content: center;
+        display: flex;
+        margin-top: 12px;
+      }
+      li#headerline {
+        border-bottom: 1px solid #8a8a8a;
+        top: 86px;
+        width: 96%;
+      }
+}

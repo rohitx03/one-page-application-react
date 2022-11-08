@@ -1,0 +1,16 @@
+.ser-banner {
+    background-image: url(https://media.istockphoto.com/vectors/copyright-symbol-protection-of-intellectual-property-tech-futuristic-vector-id1184639772?k=20&m=1184639772&s=612x612&w=0&h=KgyWmo0FI_rGnXJs1MZNgYg5Ko8pvJvlLEZvDnZeQ9Y=);
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+    background-repeat: no-repeat;
+    box-shadow: inset -1px 20px 1000px 100px #02020257;
+    background-position:center center ;
+}
+section.ser-banner h1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'barlow',sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
